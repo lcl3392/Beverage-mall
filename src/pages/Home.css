@@ -1,0 +1,75 @@
+/* .swiper-wrap {padding-top: 50px;} */
+.swiper-wrap .new-list {width: 100%;}
+.swiper-wrap .new-list .new-item {height: 500px;}
+.swiper-wrap .new-list .new-item img {width: 910px; height: 500px;}
+
+.main { width: 100%; }
+.main h2 { text-align: center; margin-top: 20px;  margin-bottom: 50px; font-size: 55px; font-weight: bold; }
+.cart-box { display: flex; justify-content: space-between; flex-wrap: wrap;  }
+.cart-box article { width: 23%; border: 1px solid #ff4713; padding: 20px; box-sizing: border-box; margin-bottom: 30px; text-align: center; }
+.cart-box article div {margin-bottom: 25px; }
+
+ /* .marqueeBox {    
+    width: 100%;
+    height: 45px;
+    background: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    white-space: nowrap; 
+    position: relative;
+  }
+  
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    background: none;
+    animation: slidemarquee 45s linear infinite; 
+    position: absolute; 
+  }
+  
+  .marquee span {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #ff4710;
+    font-size: 36px;
+    margin-right: 10px;
+    animation: scrollText 45s linear infinite; 
+  }
+   */
+  /* @keyframes slidemarquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+  
+  /* @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }  */
+  
+.cart-box article img { width: 100%;  }
+.cart-box article h3 {font-size: 16px; margin-bottom: 10px;}
+.cart-box article h4 {font-size: 20px; line-height: 1.3; font-weight: 300;margin-bottom: 20px; }
+.cart-box article p { width: 90%; margin: auto; display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }
+.cart-box article p button { background: #333; padding: 8px 45px; vertical-align: middle; color:#fff}
+.cart-box article p button.off { background: #ff4713; padding: 8px 45px; vertical-align: middle;  }
+.cart-box article p span { font-size: 18px; }
+
+.identity_hd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 0;
+}
+.identity_hd img { width: 420px;}
+.identity_bg img { max-width: 100%; border: 0; vertical-align: top;}
